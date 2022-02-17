@@ -33,6 +33,8 @@ console.log(result);
 // In JS we can create a variable and assign a funtion to it 
 // and use it as a funtion 
 
-// var sum = funtion(num1, num2) {
-//     return num1 + num2;
-// } --> Syntax error : 
+var sum = function (num1, num2) {
+    return num1 + num2;
+}
+
+console.log(sum(2, 5));
