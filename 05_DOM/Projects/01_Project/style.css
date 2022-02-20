@@ -32,7 +32,9 @@ body {
   background: rgb(66, 66, 66);
   border-radius: 100%;
   transition: 0.2s ease-in-out all;
+  margin-top: 150px;
 }
+
 .color-hover {
   position: absolute;
   top: 10%;
