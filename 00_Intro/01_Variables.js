@@ -10,7 +10,7 @@ var fullName = "Shubhansu Kumar Singh";
 // full_name  --> Snake Case 
 // FullName   --> Not recommended to use uppercase for vars
 
-// JS pics the data type automatically so, These are completely different
+// JS picks the data type automatically so, These are completely different
 
 var lengthI = 35; // Integer 
 var lengthS = "35" ; // String
