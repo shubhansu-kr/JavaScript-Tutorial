@@ -42,4 +42,5 @@ var sum = addNumber(5);
 console.log(sum(6));
 
 // Or we can use a one liner 
+// Otherwise also known as curring 
 console.log(addNumber(5)(2)) ;
