@@ -12,12 +12,12 @@ const courses = [
     price: "2.7",
   },
   {
-    name: "Complete C++ course",
-    price: "2.8",
-  },
-  {
     name: "Django Course",
     price: "7.4",
+  },
+  {
+    name: "Complete C++ course",
+    price: "2.8",
   },
 ];
 
@@ -52,9 +52,16 @@ function generateLIST() {
 
 window.addEventListener("load", generateLIST);
 
-const button = document.querySelector(".sort-btn");
+const button = document.querySelector(".btn-success");
 
 button.addEventListener("click", () => {
   courses.sort((a, b) => a.price - b.price);
+  generateLIST();
+});
+
+const buttonRev = document.querySelector(".btn-primary");
+
+buttonRev.addEventListener("click", () => {
+  courses.sort((a, b) => b.price - a.price);
   generateLIST();
 });
