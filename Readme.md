@@ -46,4 +46,4 @@ Followed along Hitesh with some fun [Projects](./09_Projects/).
 
 > Course Duration : 15th Feb to 10th March 2022 .    
 
-[Course Completion]{./09_Projects/Resource/LCO%20Course%20Completion.jpeg}.   
+![Course Completion](./09_Projects/Resource/LCO%20Course%20Completion.jpeg).   
